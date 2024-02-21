@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import StarRating from "./StarRating";
-import { useState } from "react";
-import TextExpander from "./TextExpander";
-// import './index.css';
-// import App from './App';
+// import StarRating from "./StarRating";
+// import { useState } from "react";
+// import TextExpander from "./TextExpander";
+import "./index.css";
+import App from "./App";
 // function Test() {
 //   const [movieRating, setMovieRating] = useState(0);
 //   return (
@@ -18,7 +18,8 @@ import TextExpander from "./TextExpander";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div>
+    <App />
+    {/* <div>
       <TextExpander collapsedNumWords={500}>
         Space travel is the ultimate adventure! Imagine soaring past the stars
         and exploring new worlds. It's the stuff of dreams and science fiction,
@@ -46,6 +47,6 @@ root.render(
         travel is a pretty cool thing to think about. Who knows what we'll
         discover next!
       </TextExpander>
-    </div>
+    </div> */}
   </React.StrictMode>
 );
